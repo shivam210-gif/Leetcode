@@ -8,7 +8,7 @@ public class LC_118 {
             int num = 1; 
             for (int j = 0; j <= i; j++) {
                 row.add(num);
-                num = num * (i - j) / (j + 1); 
+                num = num * (i - j) / (j + 1);
             }
             triangle.add(row);
         }
