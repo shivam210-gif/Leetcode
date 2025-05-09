@@ -4,7 +4,7 @@ public class Single_number136 {
     public static int single(int num[]){
         int res=0;
         for(int i=0;i<num.length;i++){
-           res=res^num[i];;
+           res=res^num[i];
         }
         return res;
     }
